@@ -1,0 +1,422 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+}
+
+.box-div{
+    /* border: 2px solid red; */
+    width: 400px;
+    position: absolute;
+    top: 250px;
+    left: 450px;
+    overflow: hidden;
+    z-index: 1000000;
+    box-shadow: -0.1px 0.5px 3px 0.5px rgb(205, 201, 200);
+    border: 1px solid transparent;
+}
+
+.box-div input{
+    /* border: 2px solid red; */
+    width: 250px;
+    padding: 20px;
+    margin-left: 35px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+
+.box-div button{
+    /* border: 2px solid red; */
+    padding: 20px;
+    border-radius: 0px 10px 10px 0px;
+    position: relative;
+    left: -13px;
+    /* outline: none; */
+    border: none;
+    font-weight: 550;
+    background: linear-gradient(purple, chocolate);
+    color: #ffffff;
+    font-size: 18px;
+}
+
+#seeAm{
+    text-align: center;
+    padding: 10px;
+    margin: 40px 40px 40px 110px;
+    width: 150px;
+    background: #ffffff;
+    border-radius: 20px;
+    height: 40px;
+    cursor: default;
+    font-size: 18px;
+}
+
+.box-div h5{
+    font-size: 15px;
+    font-weight: 550;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    animation: tayo 4s linear infinite backwards;
+    transition: ease;
+    margin: 20px ;
+    color: #272020;
+}
+
+@keyframes tayo {
+    100%{
+        transform: translate(-350px, 0px);
+    }
+
+    0%{
+        transform: translate(400px, 0px);
+    }
+}
+
+.box-div h1{
+    margin: 0px 0px 20px 55px;
+    border-bottom: 4px solid rgb(19, 18, 18);
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    width: 275px;
+    color: #171717;
+}
+
+.box{
+    height: 100vh;
+    background: linear-gradient(blue, rgb(234, 56, 56));
+}
+
+.first-div, .five-div{
+    border: 2px solid rebeccapurple;
+    width: 10px;
+    height: 100px;
+    border-radius: 100%;
+    background: rgb(181, 163, 129);
+    opacity: .25;
+    animation: ayooluwa 2s linear  infinite forwards;
+}
+
+@keyframes ayooluwa {
+    0%{
+        transform: translate(1000px, 0px);
+    }
+
+    100%{
+        transform: translate(110px 1000px);
+    }
+}
+
+.sec-div, .secs-div{
+    width: 100px;
+    height: 100px;
+    background: rgb(181, 163, 129);
+    opacity: .25;
+    animation: fabregas 2s linear  infinite backwards;
+    transform: scale(0.1);
+    float: right;
+    margin-right: 20px;
+}
+
+@keyframes fabregas {
+    50%{
+        transform: translate(0px, -200px);
+        transition: 2s ease;
+    }
+
+    100%{
+        transform: translate(0px, 500px);
+        transition: 2s ease;
+    }
+}
+
+.thir-div{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background: rgb(181, 163, 129);
+    opacity: .25;
+    animation: mide 2s linear  infinite backwards;
+    transform: scale(1.5);
+}
+
+@keyframes mide {
+    25%{
+        transform: translate(1500px);
+        transition: 2s ease;
+    }
+
+    100%{
+        transform: translate(-1000px);
+    }
+}
+
+.four-div{
+    margin-left:  30px;
+    margin-bottom: 10px;
+    width: 50px;
+    height: 50px;
+    background: rgb(181, 163, 129);
+    opacity: .25;
+    animation: tope 2s linear  infinite forwards;
+    transform: scale(1.5);
+}
+
+/* .five-div{
+    margin-left:  30px;
+    width: 50px;
+    height: 50px;
+    background: rgb(181, 163, 129);
+    opacity: .25;
+    animation: temitayo 2s linear  infinite forwards;
+    transform: scale(1.5);
+} */
+
+@keyframes tope{
+    50%{
+        transform: translate(0px, -400px);
+    }
+
+    100%{
+        transform: translate(0px, 450px);
+    }
+}
+
+.six-div, .four-div-sec{
+    /* border: 2px solid rebeccapurple; */
+    width: 100px;
+    height: 10px;
+    border-radius: 100%;
+    background: rgb(181, 163, 129);
+    opacity: .25;
+    animation: temi 2s linear  infinite forwards;
+    transform: scale(1.5);
+}
+
+@keyframes temi {
+    75%{
+        transform: translate(1200px);
+        transition: 2s ease;
+    }
+}
+
+/*  */
+
+
+
+
+
+
+
+
+
+@media (max-width:480px) {
+    body{
+        overflow:  hidden !important;
+    }
+
+
+    .box-div{
+        /* border: 2px solid red; */
+        width: 90%;
+        position: absolute;
+        top: 150px;
+        left: 20px;
+        overflow: hidden;
+        z-index: 1000000;
+        box-shadow: -0.1px 0.5px 3px 0.5px rgb(205, 201, 200);
+        border: 1px solid transparent;
+    }
+
+    
+.box-div input{
+    /* border: 2px solid red; */
+    width: 250px;
+    padding: 20px;
+    margin-left: 35px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+
+.box-div button{
+    /* border: 2px solid red; */
+    padding: 20px;
+    border-radius: 0px 10px 10px 0px;
+    position: relative;
+    left: -13px;
+    /* outline: none; */
+    border: none;
+    font-weight: 550;
+    background: linear-gradient(purple, chocolate);
+    color: #ffffff;
+    font-size: 18px;
+}
+
+#seeAm{
+    text-align: center;
+    padding: 10px;
+    margin: 40px 40px 40px 110px;
+    width: 150px;
+    background: #ffffff;
+    border-radius: 20px;
+    height: 40px;
+    cursor: default;
+    font-size: 18px;
+}
+
+.box-div h5{
+    font-size: 15px;
+    font-weight: 550;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    animation: tayo 4s linear infinite backwards;
+    transition: ease;
+    margin: 20px ;
+    color: #272020;
+}
+
+@keyframes tayo {
+    100%{
+        transform: translate(-350px, 0px);
+    }
+
+    0%{
+        transform: translate(400px, 0px);
+    }
+}
+
+.box-div h1{
+    margin: 0px 0px 20px 55px;
+    border-bottom: 4px solid rgb(19, 18, 18);
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    width: 275px;
+    color: #171717;
+}
+
+.box{
+    height: 100vh;
+    background: linear-gradient(blue, rgb(234, 56, 56));
+}
+
+.first-div, .five-div{
+    border: 2px solid rebeccapurple;
+    width: 10px;
+    height: 100px;
+    border-radius: 100%;
+    background: rgb(181, 163, 129);
+    opacity: .25;
+    animation: ayooluwa 2s linear  infinite forwards;
+}
+
+@keyframes ayooluwa {
+    0%{
+        transform: translate(100px, 0px);
+    }
+
+    100%{
+        transform: translate(110px 100px);
+    }
+}
+
+.sec-div, .secs-div{
+    width: 100px;
+    height: 100px;
+    background: rgb(181, 163, 129);
+    opacity: .25;
+    animation: fabregas 2s linear  infinite backwards;
+    transform: scale(0.1);
+    float: right;
+    margin-right: 20px;
+}
+
+@keyframes fabregas {
+    50%{
+        transform: translate(0px, -200px);
+        transition: 2s ease;
+    }
+
+    100%{
+        transform: translate(0px, 500px);
+        transition: 2s ease;
+    }
+}
+
+.thir-div{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background: rgb(181, 163, 129);
+    opacity: .25;
+    animation: mide 2s linear  infinite backwards;
+    transform: scale(1.5);
+}
+
+@keyframes mide {
+    25%{
+        transform: translate(150px);
+        transition: 2s ease;
+    }
+
+    100%{
+        transform: translate(-10px);
+    }
+}
+
+.four-div{
+    margin-left:  30px;
+    margin-bottom: 10px;
+    width: 50px;
+    height: 50px;
+    background: rgb(181, 163, 129);
+    opacity: .25;
+    animation: tope 2s linear  infinite forwards;
+    transform: scale(1.5);
+}
+
+/* .five-div{
+    margin-left:  30px;
+    width: 50px;
+    height: 50px;
+    background: rgb(181, 163, 129);
+    opacity: .25;
+    animation: temitayo 2s linear  infinite forwards;
+    transform: scale(1.5);
+} */
+
+@keyframes tope{
+    50%{
+        transform: translate(0px, -100px);
+    }
+
+    100%{
+        transform: translate(0px, 450px);
+    }
+}
+
+.six-div, .four-div-sec{
+    /* border: 2px solid rebeccapurple; */
+    width: 100px;
+    height: 10px;
+    border-radius: 100%;
+    background: rgb(181, 163, 129);
+    opacity: .25;
+    animation: temi 2s linear  infinite forwards;
+    transform: scale(1.5);
+}
+
+@keyframes temi {
+    75%{
+        transform: translate(120px);
+        transition: 2s ease;
+    }
+}
+    
+}
