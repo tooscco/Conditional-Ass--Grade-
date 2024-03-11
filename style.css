@@ -217,16 +217,12 @@ body{
 
 @media (max-width:480px) {
     body{
-        overflow:  hidden !important;
+        overflow: hidden !important;
     }
-
-
     .box-div{
         /* border: 2px solid red; */
         width: 90%;
-        position: absolute;
-        top: 150px;
-        left: 20px;
+      transform: translate(-430px);
         overflow: hidden;
         z-index: 1000000;
         box-shadow: -0.1px 0.5px 3px 0.5px rgb(205, 201, 200);
@@ -234,20 +230,20 @@ body{
     }
 
     
-.box-div input{
+    .box-div input{
     /* border: 2px solid red; */
-    width: 250px;
-    padding: 20px;
-    margin-left: 35px;
+    width: 200px;
+    padding: 15px;
+    margin-left: opx;
     border-radius: 10px;
     border: none;
     outline: none;
-    font-size: 18px;
-}
+    font-size: 15px;
+    }
 
-.box-div button{
+    .box-div button{
     /* border: 2px solid red; */
-    padding: 20px;
+    padding: 15px;
     border-radius: 0px 10px 10px 0px;
     position: relative;
     left: -13px;
@@ -256,22 +252,22 @@ body{
     font-weight: 550;
     background: linear-gradient(purple, chocolate);
     color: #ffffff;
-    font-size: 18px;
-}
+    font-size: 15px;
+    }
 
-#seeAm{
+    #seeAm{
     text-align: center;
     padding: 10px;
-    margin: 40px 40px 40px 110px;
+    margin: 40px 40px 40px 80px;
     width: 150px;
     background: #ffffff;
     border-radius: 20px;
     height: 40px;
     cursor: default;
-    font-size: 18px;
-}
+    font-size: 15px;
+    }
 
-.box-div h5{
+    .box-div h5{
     font-size: 15px;
     font-weight: 550;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -279,77 +275,80 @@ body{
     transition: ease;
     margin: 20px ;
     color: #272020;
-}
+    width: 400px;
+    }
 
-@keyframes tayo {
-    100%{
+    @keyframes tayo {
+        100%{
         transform: translate(-350px, 0px);
-    }
+      }
 
-    0%{
+     0%{
         transform: translate(400px, 0px);
+      }
     }
-}
 
-.box-div h1{
-    margin: 0px 0px 20px 55px;
+    .box-div h1{
+    margin: 0px 0px 20px 50px;
     border-bottom: 4px solid rgb(19, 18, 18);
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    width: 275px;
+    width: 230px;
     color: #171717;
-}
+    }
 
-.box{
+    .box{
+        width: 100% !important;
     height: 100vh;
     background: linear-gradient(blue, rgb(234, 56, 56));
-}
+    overflow: hidden !important;
+    }
 
-.first-div, .five-div{
-    border: 2px solid rebeccapurple;
-    width: 10px;
-    height: 100px;
-    border-radius: 100%;
-    background: rgb(181, 163, 129);
-    opacity: .25;
-    animation: ayooluwa 2s linear  infinite forwards;
-}
+    .first-div, .five-div{
+         border: 2px solid rebeccapurple;
+         width: 10px;
+          height: 100px;
+         border-radius: 100%;
+         background: rgb(181, 163, 129);
+         opacity: .25;
+         animation: ayooluwa 2s linear  infinite forwards;
+    }
 
-@keyframes ayooluwa {
-    0%{
+    @keyframes ayooluwa {
+        0%{
         transform: translate(100px, 0px);
-    }
+        }
 
-    100%{
+        100%{
         transform: translate(110px 100px);
-    }
-}
-
-.sec-div, .secs-div{
-    width: 100px;
-    height: 100px;
-    background: rgb(181, 163, 129);
-    opacity: .25;
-    animation: fabregas 2s linear  infinite backwards;
-    transform: scale(0.1);
-    float: right;
-    margin-right: 20px;
-}
-
-@keyframes fabregas {
-    50%{
-        transform: translate(0px, -200px);
-        transition: 2s ease;
+        }
     }
 
-    100%{
-        transform: translate(0px, 500px);
-        transition: 2s ease;
+    .sec-div, .secs-div{
+         width: 100px;
+         height: 100px;
+         background: rgb(181, 163, 129);
+         opacity: .25;
+         animation: fabregas 2s linear  infinite backwards;
+         transform: scale(0.1);
+         float: right;
+         margin-right: 20px;
     }
-}
 
-.thir-div{
+    @keyframes fabregas {
+         50%{
+            transform: translate(0px, -200px);
+            transition: 2s ease;
+         }
+
+        100%{
+            transform: translate(0px, 100px);
+            transition: 2s ease;
+    }
+    }
+
+    .thir-div{
     width: 100px;
     height: 100px;
     border-radius: 100%;
@@ -357,7 +356,7 @@ body{
     opacity: .25;
     animation: mide 2s linear  infinite backwards;
     transform: scale(1.5);
-}
+    }
 
 @keyframes mide {
     25%{
@@ -366,7 +365,7 @@ body{
     }
 
     100%{
-        transform: translate(-10px);
+        transform: translate(0px);
     }
 }
 
@@ -397,7 +396,7 @@ body{
     }
 
     100%{
-        transform: translate(0px, 450px);
+        transform: translate(0px, 100px);
     }
 }
 
