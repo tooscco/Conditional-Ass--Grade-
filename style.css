@@ -37,7 +37,7 @@ body{
     border-radius: 0px 10px 10px 0px;
     position: relative;
     left: -13px;
-    /* outline: none; */
+    outline: none;
     border: none;
     font-weight: 550;
     background: linear-gradient(purple, chocolate);
