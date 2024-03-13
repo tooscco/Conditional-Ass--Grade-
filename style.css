@@ -64,7 +64,7 @@ body{
     animation: tayo 4s linear infinite backwards;
     transition: ease;
     margin: 20px ;
-    color: #272020;
+    color: #000000;
 }
 
 @keyframes tayo {
@@ -84,7 +84,7 @@ body{
     font-weight: 700;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     width: 275px;
-    color: #171717;
+    color: #000000;
 }
 
 .box{

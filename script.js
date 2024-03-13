@@ -1,9 +1,12 @@
 function CheckScore() {
     var userScore = Number(score.value) 
     // console.log(UserScore);
-    if(userScore >= -1000000000000 && userScore < 1 ){
+    if(userScore== "" ){
         console.log('invalid');
         seeAm.innerHTML = 'invalid'
+    } else if( userScore <0){
+        console.log('Null');
+        seeAm.innerHTML = 'Null'
     }
     else if(userScore >= 0 && userScore < 40) {
         console.log('F - Fail ');
