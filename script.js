@@ -12,7 +12,7 @@ function CheckScore() {
         songFail.play()
     } else if (userScore >= 40 && userScore < 45){
         console.log('E - Pass');
-        seeAm.innerHTML = 'E - Pass 😒'
+        seeAm.innerHTML = 'E - Fair 😒'
         var songPass = new Audio ('Audio/mixkit-falling-male-scream-391.wav')
         songPass.play()
     } else if (userScore >= 45 && userScore < 50){
